@@ -1,14 +1,37 @@
 p {
-    background-color: yellowgreen;
-    text-align: center;
+  background-color: yellowgreen;
+  text-align: center;
+}
+
+#firstname{
+  background-color: royalblue;
+  text-align: center;
+}
+
+.redtext{
+  background-color: red;
+  text-align: center;
+}
+
+/**{
+  background-color: grey;
+  text-align: center;
+}*/
+
+h1, h2, h3{
+  background-color:green;
+  text-align: center;
+}
+
+hr {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: cadetblue;
+  border-width: 15px;
   }
 
-  #firstname{
-    background-color: royalblue;
-    text-align: center;
-  }
-  
-  .redtext{
-    background-color: red;
-    text-align: center;
-  }
