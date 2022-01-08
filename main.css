@@ -13,10 +13,10 @@ p {
   text-align: center;
 }
 
-/**{
+*{
   background-color: grey;
   text-align: center;
-}*/
+}
 
 h1, h2, h3{
   background-color:green;
