@@ -13,10 +13,10 @@ p {
   text-align: center;
 }
 
-*{
+/**{
   background-color: grey;
   text-align: center;
-}
+}*/
 
 h1, h2, h3{
   background-color:green;
@@ -32,6 +32,17 @@ hr {
   border-style: none;
   border-top-style: dotted;
   border-color: cadetblue;
+  width: 30%;
   border-width: 15px;
   }
 
+    p{ 
+      display: block;
+      max-width: 500px;
+      margin: auto;
+      border: 3px solid burlywood;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: auto;
+      margin-right: auto;
+    }
