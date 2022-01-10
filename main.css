@@ -65,4 +65,12 @@ ul p{
 }
 a:hover {
     background-color: black;
+    
+
+
 }
+* {
+  margin : 0px;
+  padding : 0px;
+}
+
