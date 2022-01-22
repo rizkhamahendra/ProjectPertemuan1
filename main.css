@@ -1,7 +1,7 @@
-p {
+/*p {
   background-color: yellowgreen;
   text-align: center;
-}
+}*/
 
 #firstname{
   background-color: royalblue;
@@ -18,9 +18,18 @@ p {
   text-align: center;
 }*/
 
-h1, h2, h3{
+h1, h2, h3, h4, h5, h6{
   background-color:green;
   text-align: center;
+}
+
+ul,li,image,p{
+  display: block;
+  max-width: 50%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 hr {
@@ -60,10 +69,18 @@ ul{
   padding: 14px 16px;
   text-decoration: none;
 }
+.skill{
+  display: block;
+  max-width: 50%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  
+}
 ul p{
   float: right;
 }
-a:hover {
+li a:hover {
     background-color: black;
     
 }
@@ -71,4 +88,82 @@ a:hover {
   margin : 0px;
   padding : 0px;
 }
+.navbar {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background-color: pink;
+  position: sticky;
+  top: 0px;
+}
 
+li{
+float: left;  
+}
+body {
+  background-color: bisque;
+}
+ 
+table,tr,td{
+  border: 1px solid black;
+ }
+ table{
+   max-width: 500px;
+   margin: auto;
+   border-collapse: collapse;
+ }
+ table head{
+   background-color: rgb(36, 30, 31);
+   color: white;
+ }
+ th,td{
+   padding: 15px;
+   text-align: center;
+ }
+ tr:hover{
+   background-color: rgb(252, 250, 250);
+ }
+li{
+  float: left; 
+}
+.footer{
+  background-color: rgb(36, 30, 31);
+  padding :10px;
+  text-align: center;
+  color: white;
+  margin-top : 15px;
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100px
+}
+.from-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-bottom: 100px;
+}
+input{
+  width: 50%;
+  padding: 10px 5px;
+  margin: 5px 25%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+input [type="bottom"]
+input [type="submit"]{
+  background-color: brown;
+  border:none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+p{
+  background-color: orange;
+}
+.normal{
+  width: 150px;
+}
