@@ -5,53 +5,43 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Form Register</h1>
+    <div class="form-register" >
+    <div class="content-form">
     <form action="proses.php" method="get" >
-        <p>
-            <label>First Name</label>
-            <input type="text" name="firstName">
-        </p>
-        <p>
-            <label>Last Name</label>
-            <input type="text" name="lastName">
-        </p>
-        <p>
-            <label>Email Addres</label>
-            <input type="email" name="email">
-        </p>
-        <p>
-            <label>Place of Birth</label>
-            <input type="text" name="placeOfBirtht">
-        </p>
-        <p>
-            <label>Date of Birth</label>
-            <input type="date" name="dateOfBirth">
-        </p>
-        <p>
-            <label>Gender</label>
-            <input type="radio" name="gender" value="male">laki-laki
-            <input type="radio" name="gender" value="female">perempuan
-        </p>
-        <p>
-            <label>married</label>
-            <input type="checkbox" name="married">
-        </p>
-        <p>
-        <p>
-            <label>Password</label>
-            <input type="password" name="password">
-        </p>
-            <br>
-            <p>
-                <input type="checkbox" name="persyaratan">
-                <label>I HAVE READ, FULLY UNDERSTAND AND AGREE TO THE FOREGOING SUBMISSION AGREEMENT</label>
-            </p>
-            <br>
+        <h1>Form Register</h1>
+            <label for="fname">First Name</label><br/>
+            <input type="text" name="firstName" placeholder="Rizkha"/>
+        <br/>
+        <label  for="lname">last Name</label><br/>
+            <input type="text" name="lname" placeholder="Mahendra"/>
+        <br/>
+        <label for="email">Email Addres </label><br/>
+            <input type="email"  placeholder="Rizkhamahendra@student.uir.ac.id"/>
+        <br/>
+        <label for="Placeofbirth">Placeofbirth</label><br/>
+            <input type="text" name="Placeofbirth" placeholder="Dumai"/>
+        <br/>
+        <label for="DateofBirth">DateofBirth</label><br/>
+        <input type="date" name="DateofBirth" placeholder="11-05-2002"/>
+        <br/>
+        <label for="gender">Gender</label><br/>
+            <input type="radio"/>Male<input type="radio">Female
+        <br/>
+        <label for="married">married</label><br/>
+        <input type="checkbox" name="married" />
+        <br/>
+        <label for="password">password</label><br/>
+            <input type="password" name="password" placeholder="********"/>
+        <br/>
+        <input type="checkbox">I HAVE READ, FULLY UNDERSTAND AND AGREE TO THE FOREGOING SUBMISSION AGREEMENT
+        <br/>
             <input type="submit" value="Register">
             <br>
             <h2><a href="login.html">login</a></h2>
     </form>
-    <nav>
+    </div>
+    </div>
+    <nav >
      <ul>
             <li>
             <h2><a href="register.html">Register</a></h2></li>

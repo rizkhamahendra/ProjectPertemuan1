@@ -126,7 +126,7 @@ table,tr,td{
 li{
   float: left; 
 }
-/*gi.footer{
+.footer{
   background-color: rgb(36, 30, 31);
   padding :10px;
   text-align: center;
@@ -136,7 +136,7 @@ li{
   left:0;
   bottom:0;
   width: 100px
-}*/
+}
 .from-login{
   display: flex;
   justify-content: center;
@@ -166,4 +166,16 @@ p{
 }
 .normal{
   width: 150px;
+}
+div .form-register{
+  position: static;
+  margin-bottom: 100px;
+ 
+}
+div .content-form{
+  max-width: 70%;
+  margin: auto;
+}
+h1 .register.html{
+  margin-bottom: 34px;
 }
