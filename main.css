@@ -186,3 +186,10 @@ div .from-login{
   height: 90vh;
   margin-bottom: 100px;
 }
+
+div .form-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}

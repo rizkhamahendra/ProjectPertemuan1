@@ -5,36 +5,30 @@
 <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="from-contact">
+    <div class="content from">
     <h1>Contact ME</h1>
-    <p>No Hp : 0822835141592
-    <br>
-    <p>rizkhamahedra@student.uir.ac.id</p>
     <form action="proses.php" method="get">
-        <p>
-            <label>YourName</label>
-            <input type="text" name="Your Name">
-        </p>
-        <p>
-            <label>Email Addres</label>
-            <input type="email" name="Email Addres">
-        </p>
-        <p>
-            <label>Budget</label>
-            <input type="number" name="budget">
-        </p>
-        <p>
+            <label for="name">nama</label><br/>
+            <input type="text" name="name" placeholder="Rizkha Mahendra">
+        <br/>
+        <label for="email">email addres</label><br/>
+            <input type="email"  placeholder="Rizkha Mahendra@student.uir.ac.id">
+        <br/>
+        <label for="budget">budget</label><br/>
+            <input type="number" name="budget" placeholder="0822*******">
+        <br/>
             <label>Tell me about your project</label>
-            <textarea name="description" cols="20" rows="1"></textarea>
+            <input type="description" cols="20" rows="1">
             <br>
             <br>
-            <input type="submit" name="submit">
-        </p>
-    </form>
-
+            <input type="submit" value="kirim">
     
-
-
-    <nav >
+    </div>
+        </div>
+    </form>
+    <hr/>
+    <nav class="sticky" >
        <ul>
         <li>
         <h2><a href="register.html">Register</a></h2></li>
@@ -47,11 +41,11 @@
         </ul> 
     </nav>
 
-    <footer>
-        <div>
-            <p>Copyright © 2020 Rizkha Mahendra. All Rights Reserved</p>
+    <div class="footer">
+        <footer style="text-align: center">
+                <p>Copyright © 2020 Rizkha Mahendra. All Rights Reserved</p>
+          </footer>
         </div>
-      </footer>
       
 
 </body>
