@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6{
   text-align: center;
 }
 
-ul,li,image,p{
+ul,li,img,p{
   display: block;
   max-width: 50%;
   margin-top: 0px;
@@ -199,8 +199,14 @@ div .my-portofolio{
   flex-wrap: wrap;
   margin-bottom: 50px;
  }
- img {
+ img{
    box-sizing: border-box;
    width: 33.33%;
    padding: 25px;
+   max-width: 850px;
+   max-width: 500px;
+   width: 50%;
+   width: 100%;
  }
+
+
