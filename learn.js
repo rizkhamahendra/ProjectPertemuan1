@@ -48,3 +48,16 @@ console.log('false || true =', false || true)
 console.log('false || false =', false || false)
 console.log('!true =', !true)
 console.log('!false =', !false)
+//membuat dari fungsi
+function luas_persegi(parameter=1){
+    console.log('1',p*1)
+    return
+}
+function luas_persegi(parameter=1){
+    console.log('1/2 =',a*t)
+    return
+}
+function luas_persegi(parameter=1){
+    console.log('v =',p*1*t)
+    return
+}
