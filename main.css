@@ -199,7 +199,7 @@ div .my-portofolio{
   flex-wrap: wrap;
   margin-bottom: 50px;
  }
- img{
+ img .my-portofolio {
    box-sizing: border-box;
    width: 33.33%;
    padding: 25px;
@@ -215,4 +215,33 @@ textarea{
   box-sizing: border-box;
   resize: vertical;
 }
+div .grid-container {
+  display:"grid";
+  grid-template-areas:'side main main main // grid-container' ;
+  margin-bottom: 100px;
+}
+div .article-title{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+ul .sidebar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration:none;
+  width: 200px; 
+}
 
+div .article1{
+  font-size: 50px;
+  font-weight: bold;
+  
+}
+
+img .sidebar{
+  max-width: 850px;
+  display: none;
+}
