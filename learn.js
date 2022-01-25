@@ -61,3 +61,9 @@ function luas_persegi(parameter=1){
     console.log('v =',p*1*t)
     return
 }
+//Bermain dengan Array
+var fruits = ["banteng,ayam","kuda","tringgiling"]
+console.log(fruits[2]);
+console.log(fruits[2]);
+console.log(fruits[0]);
+
