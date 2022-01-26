@@ -66,4 +66,16 @@ var fruits = ["banteng,ayam","kuda","tringgiling"]
 console.log(fruits[2]);
 console.log(fruits[2]);
 console.log(fruits[0]);
-
+//bermain dengan objek
+let person = {
+    FirstName : "Rizkha ",
+    LastName : "Mahendra",
+    id : 203510626,
+    fullName : function(){
+        return this.firstname +" "+ this.lastname;
+    }
+};
+console.log(person.firstname);
+console.log(person.lastname);
+console.log(person.id);
+console.log(person.fullName());
