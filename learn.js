@@ -72,7 +72,7 @@ let person = {
     LastName : "Mahendra",
     id : 203510626,
     fullName : function(){
-        return this.firstname +" "+ this.lastname;
+        return this.firstname + " " + this.lastname;
     }
 };
 console.log(person.firstname);
