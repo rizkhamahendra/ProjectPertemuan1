@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for in loop</title>
+</head>
+<body>
+    <p>pernyataan for in mengulang properti objek</p>
+    <p id= "demo"></p>
+    <script>
+        const person = {fname:"Rizkha", lname:"Mahendra",age:12};
+
+        let txt = "";
+        for (let x in person){
+            txt += person[x] + "";
+        }
+        document.getElementById("demo").innerHTML = txt;
+    </script>
+</body>
+</html>
