@@ -1,7 +1,7 @@
 /*Sertakan padding dan border dalam total lebar dan tinggi elemen */
-* {
+/**{
     box-sizing: border-box;
-  }
+  }*/
   
   /* Hapus margin dan padding dari list */
   ul {
