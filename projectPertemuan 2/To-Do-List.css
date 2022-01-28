@@ -110,6 +110,6 @@
     border-radius: 0;
   }
   
-  *.addBtn:hover {
+  /*.addBtn:hover {
     background-color: #bbb;
   }
