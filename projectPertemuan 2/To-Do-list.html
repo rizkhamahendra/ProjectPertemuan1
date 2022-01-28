@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="to-do-list.css">
+    <title>TUGAS 7</title>
+</head>
+<body>
+
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">TIME MANAGEMENT</h2>
+        <h2 style="margin:5px">RIZKHA MAHENDRA 3E (203510626)</h2>
+        <input type="text" id="myInput" placeholder="Kegiatan...">
+        <span onclick="newElement()" class="addBtn">Tambah</span>
+      </div>
+      
+      <ul id="myUL">
+        <li>olahraga</li>
+        <li class="checked">melunasi hutang</li>
+        <li>makan</li>
+        <li>Belajar</li>
+        <li>Membantu orang tua</li>
+        <li>menimbah ilmu</li>
+        <li>Membuat Tugas</li>
+      </ul>
+
+
+      <script>
+        // Buat tombol "tutup" dan tambahkan ke setiap item daftar
+        var myNodelist = document.getElementsByTagName("LI");
+        var i;
+        for (i = 0; i < myNodelist.length; i++) {
+            var span = document.createElement("SPAN");
+            var txt = document.createTextNode("\u00D7");
+            span.className = "close";
+            span.appendChild(txt);
+            myNodelist[i].appendChild(span);
+        }
+        
+        // Klik pada tombol tutup untuk menyembunyikan item daftar saat ini
+        var close = document.getElementsByClassName("close");
+        var i;
+        for (i = 0; i < close.length; i++) {
+            close[i].onclick = function() {
+                var div = this.parentElement;
+                div.style.display = "none";
+            }
+        }
+        
+        // Tambahkan simbol "dicentang" saat mengklik item daftar
+        var list = document.querySelector('ul');
+        list.addEventListener('click', function(ev) {
+            if (ev.target.tagName === 'LI') {
+                ev.target.classList.toggle('checked');
+            }
+        }, false);
+        // Buat item daftar baru saat mengklik tombol "Tambah"
+        function newElement() {
+            var li = document.createElement("li");
+            var inputValue = document.getElementById("myInput").value;
+            var t = document.createTextNode(inputValue);
+            li.appendChild(t);
+            if (inputValue === '') {
+                alert("Tidak ada kegiatan yang di tambahkan!");
+            } else {
+                document.getElementById("myUL").appendChild(li);
+            }
+            document.getElementById("myInput").value = "";
+            
+            var span = document.createElement("SPAN");
+            var txt = document.createTextNode("\u00D7");
+            span.className = "close";
+            span.appendChild(txt);
+            li.appendChild(span);
+            
+            for (i = 0; i < close.length; i++) {
+                close[i].onclick = function() {
+                    var div = this.parentElement;
+                    div.style.display = "none";
+                }
+            }
+
+            function myConfirm() {
+            var result = confirm("Want to delete?");
+            if (result==true) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        }
+
+        </script>
+</body>
+</html>
